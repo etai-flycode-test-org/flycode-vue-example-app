@@ -1,4 +1,5 @@
 version: "0.1"
+
 environments:
   - name: master
     branch: master
@@ -12,3 +13,4 @@ apps:
         format: nested-key-value
       - path: "*.vue"
         format: vue-hardcoded
+ 
